@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.Niijimaのポートフォリオサイト</title>
+    <meta name="description" content="A.Niijimaのポートフォリオサイトです。伝わる温度をデザインにします。">
+
+    <!-- CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- favicon -->
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="favicon-48x48.png">
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/10da13853a.js" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="header-logo"><img src="./images/A.Niijima-logo.png" alt="A.Niijima-logo"></h1>
+
+      <!-- ハンバーガーボタン -->
+      <button type="button" class="hamburger-button">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <!-- ナビゲーション、ヘッダーメニュー -->
+      <nav class="hamburger-menu header-nav">
+        <ul class="hamburger-menu-list-group header-nav-list-group flex outfit">
+          <li><a href="#portfolio">Portfolio<i class="fa-solid fa-angle-right angle-right-icon"></i></a></li>
+          <li><a href="#profile">Profile<i class="fa-solid fa-angle-right angle-right-icon"></i></a></li>
+          <li><a href="#skills">Skills<i class="fa-solid fa-angle-right angle-right-icon"></i></a></li>
+          <li><a href="#contact">Contact<i class="fa-solid fa-angle-right angle-right-icon"></i></a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="main-visual">
+        <h1 class="main-visual-title">清潔感×信頼感</h1>
+        <p class="main-visual-text">伝わる温度をデザインにします</p>
+      </section>
+
+      <section id="portfolio" class="portfolio">
+        <div class="container about-container">
+          <h2 class="portfolio-title">Portfolio</h2>
+          <div class="portfolio-group">
+            <div class="portfolio-first">
+              <div class="portfolio-first-img">
+                <img src="./images/skincare-item.jpg" alt="">
+              </div>
+              <div class="portfolio-first-catch">
+                <p class="portfolio-first-text">デザイン課題として制作したバナーデザインです。</p>
+                <p class="portfolio-first-sub-text">30～40代のくすみ・シミに悩む女性を想定し、夜のスキンケア時間に寄り添う落ち着いた印象を意識しました。<br>
+                  ナイトクリームの特性に合わせ、暗めのトーンと透明感のあるグラデーションを用いることで肌への効果期待が伝わるよう設計しています。</p>
+              </div>
+            </div>
+            <div class="portfolio-second">
+              <div class="portfolio-second-img">
+                <img src="./images/ぬるま湯デザイン5日間チャレンジバナー2.jpg" alt="" class="left-img">
+                <img src="./images/ぬるま湯デザイン5日間チャレンジバナーモックアップ.jpg" alt="" class="right-img">
+              </div>
+              <div class="portfolio-second-catch">
+                <p class="portfolio-second-text">ぬるま湯デザインの5日間チャレンジ課題として制作したバナーです。</p>
+                <p class="portfolio-second-sub-text">20代～50代のwebデザインを学びたい方に向けて制作しました。
+                  ”5”の数字を部分的に大きくすることで視認性を高め、装飾を抑えた引き算のデザインで内容が直感的に伝わる構成としています。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="profile" class="profile">
+        <div class="container">
+          <h2 class="profile-title">Profile</h2>
+          <div class="profile-item">
+            <img src="./images/profile-img.webp" alt="プロフィール写真" width="200" height="200" class="profile-image">
+            <div class="profile-text">
+              <p class="profile-name">Akane Niijima</p>
+              <p class="profile-introduction">
+                短期大学卒業後、アパレル業界で5年間、事務職で2年間勤務してきました。<br>接客や業務サポートを通して培った<span>”伝わるコミュニケーション”と</span>”丁寧な作業”が自分の強みです。<br>現在は、Webデザインを中心に制作を行いながらコーディング（HTML/CSS/JavaScript）の学習を<span>進めています。</span>見やすく、使いやすく、目的に合わせて“成果につながるデザイン”を意識して制作しています。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills">
+        <div class="container">
+          <h2 class="skills-title">Skills</h2>
+          <div class="skills-item">
+            <p class="touls-text"><i class="fa-solid fa-clover icon-clover"></i>使用ツール</p>
+            <ul class="touls">
+              <li class="touls-list">Photoshop</li>
+              <li class="touls-list">Figma</li>
+            </ul>
+            <p class="web-design-text"><i class="fa-solid fa-clover icon-clover"></i>Webデザイン</p>
+            <ul class="web-design">
+              <li class="web-design-skills">バナー ・LP 制作</li>
+              <li class="web-design-skills">ワイヤーフレーム作成</li>
+              <li class="web-design-skills">デザインカンプ作成</li>
+              <li class="web-design-skills">PC・スマートフォン対応デザイン</li>
+              <li class="web-design-skills">ブランドイメージに合わせたレイアウト設計</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container about-container">
+          <h2 class="contact-title">Contact</h2>
+
+          <ul class="contact">
+            <li class="contact-instagram"><a href="https://www.instagram.com/n_akane_design?igsh=M3M1eTgzbHl1d2V0"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="contact-twitter"><a href="https://x.com/NAkn55448075613"><i class="fa-solid fa-x"></i></a></li>
+          </ul>
+
+          <form action="送信先URL" method="post">
+            <input type="text" placeholder="お名前" name="name" required>
+            <input type="email" placeholder="メールアドレス" name="email" required>
+            <textarea placeholder="お問い合わせ内容" name="message" required></textarea>
+            <div class="form-button">
+              <input type="submit" value="送信">
+            </div>
+
+          </form>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- フッター -->
+    <footer class="footer">
+      <div class="footer-copyright">
+        <small>©2025 All Rights Reserved.</small>
+      </div>
+    </footer>
+
+    <!-- JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"></script>
+      <script src="./js/main.js"></script>
+
+  </body>
+
+</html>
