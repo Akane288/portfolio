@@ -329,7 +329,9 @@ h2 {
 }
 
 .portfolio-first,
-.portfolio-second {
+.portfolio-second,
+.portfolio-third
+{
   display: flex;
   flex-direction: column;
 }
@@ -372,6 +374,8 @@ h2 {
     height: 183px;
   }
 }
+
+
 
 /* profile */
 
