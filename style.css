@@ -389,6 +389,29 @@ h2 {
   }
 }
 
+.portfolio-third-img {
+  width: 154px;
+  height: 128px;
+}
+
+@media (min-width: 1366px) {
+  .portfolio-third-img {
+    margin-bottom: 20px;
+  }
+}
+
+.portfolio-forth-img {
+  width: 154px;
+  height: 128px;
+}
+
+@media (min-width: 1366px) {
+  .portfolio-forth-img {
+    margin-bottom: 20px;
+  }
+}
+
+
 
 
 /* profile */
