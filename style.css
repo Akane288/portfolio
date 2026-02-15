@@ -355,7 +355,9 @@ h2 {
 }
 
 .portfolio-first-img,
-.portfolio-second-img {
+.portfolio-second-img,
+.portfolio-third-img,
+.portfolio-forth-img{
   margin: 0 auto;
 }
 
