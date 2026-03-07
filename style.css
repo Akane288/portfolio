@@ -303,56 +303,55 @@ h2 {
 .point-section-second,
 .point-section-third,
 .point-section-forth,
-.point-section-fifth{
-margin-top:40px;
+.point-section-fifth {
+  margin-top:40px;
 }
 
 .point-section-first img,
 .point-section-second img,
 .point-section-third img,
 .point-section-forth img,
-.point-section-fifth img{
-width:100%;
-border-radius:8px;
+.point-section-fifth img {
+  width:100%;
+  border-radius:8px;
 }
 
-.point-section-text{
-width:100%;
+.point-section-text {
+  width:100%;
 }
 
-@media (min-width:768px){
-
-.point-section-first,
-.point-section-second,
-.point-section-third,
-.point-section-forth,
-.point-section-fifth{
-display:flex;
-align-items:center;
-gap:40px;
+@media (min-width:768px) {
+  .point-section-first,
+  .point-section-second,
+  .point-section-third,
+  .point-section-forth,
+  .point-section-fifth {
+    display:flex;
+    align-items:center;
+    gap:40px;
+ }
 }
 
 .point-section-first img,
 .point-section-second img,
 .point-section-third img,
 .point-section-forth img,
-.point-section-fifth img{
-width:48%;
+.point-section-fifth img {
+  width:48%;
 }
 
-.point-section-text{
-width:52%;
+.point-section-text {
+  width:52%;
 }
 
 /* 1・3・5反転 */
 
 .point-section-first,
 .point-section-third,
-.point-section-fifth{
-flex-direction:row-reverse;
+.point-section-fifth {
+  flex-direction:row-reverse;
 }
 
-}
 
 
 /* profile */
