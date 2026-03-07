@@ -299,120 +299,155 @@ h2 {
   }
 }
 
-@media (min-width: 1366px) {
-  .portfolio-group {
-    display: flex;
-    gap: 50px;
-  }
+.point-section-first,
+.point-section-second,
+.point-section-third,
+.point-section-forth,
+.point-section-fifth {
+  margin-top: 33px;
 }
 
-.portfolio-img {
-  border-radius: 50%;
-  width: 40%;
-  height: 40%;
-  margin: 0 auto;
+@media (min-width: 768px) {
+  .point-section-first,
+  .point-section-third,
+  .point-section-fifth {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 43px;
+    gap: 34px;
+  }
 }
 
-.portfolio-first-catch {
-  padding-top: 70px;
-  padding-left: 6px;
-  display: flex;
-  flex-direction: column;
-  font-size: 18px;
+@media (min-width: 768px) {
+  .point-section-second,
+  .point-section-forth {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 45px;
+    gap: 48px;
+  }
 }
 
-.portfolio-second-catch {
-  padding-top: 10px;
-  display: flex;
-  flex-direction: column;
-  font-size: 18px;
+.point-section-first img,
+.point-section-second img,
+.point-section-third img,
+.point-section-forth img,
+.point-section-fifth img {
+  border-radius: 8px;
+  width: 100%;
 }
 
-.portfolio-third-catch {
-    padding-top: 10px;
-    display: flex;
-    flex-direction: column;
-    font-size: 18px;
+@media (min-width: 768px) {
+
+  .point-section-first img,
+  .point-section-second img,
+  .point-section-third img,
+  .point-section-forth img,
+  .point-section-fifth img {
+    width: 48%;
+  }
 }
 
-.portfolio-forth-catch {
-    padding-top: 10px;
-    display: flex;
-    flex-direction: column;
-    font-size: 18px;
+@media (min-width: 768px) {
+
+  .point-section-first,
+  .point-section-third,
+  .point-section-fifth {
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+  }
 }
 
-.portfolio-first,
-.portfolio-second,
-.portfolio-third
-{
-  display: flex;
-  flex-direction: column;
+.point-section-text {
+  width: 100%;
 }
 
-.portfolio-first {
-  margin-bottom: 30px;
+.point-section-first-number,
+.point-section-second-number,
+.point-section-third-number,
+.point-section-forth-number,
+.point-section-fifth-number {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: #333333;
+  line-height: 1;
+  margin-top: 9px;
 }
 
-.portfolio-first-img,
-.portfolio-second-img,
-.portfolio-third-img,
-.portfolio-forth-img{
-  margin: 0 auto;
+@media (min-width: 768px) {
+  .point-section-first-number,
+  .point-section-second-number,
+  .point-section-third-number,
+  .point-section-forth-number,
+  .point-section-fifth-number {
+    font-size: 40px;
+    margin-top: 0;
+  }
 }
 
-.portfolio-first-img {
-  width: 154px;
-  height: 128px;
+@media (min-width: 768px) {
+  .point-section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 52%;
+    gap: 5px;
+  }
 }
 
-@media (min-width: 1366px) {
-  .portfolio-first-img {
-    margin-bottom: 20px;
-  }
+.point-section-first-text,
+.point-section-second-text,
+.point-section-third-text,
+.point-section-forth-text,
+.point-section-fifth-text {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333333;
 }
 
-.left-img {
-  width: 60px;
-  height: 130px;
-  margin-right: 7px
+@media (min-width: 768px) {
+  .point-section-first-text,
+  .point-section-second-text,
+  .point-section-third-text,
+  .point-section-forth-text,
+  .point-section-fifth-text {
+    font-size: 24px;
+    letter-spacing: -0.025em;
+  }
 }
 
-.right-img {
-  width: 129px;
-  height: 129px;
+@media (min-width: 768px) {
+  .point-section-second-text,
+  .point-section-third-text,
+  .point-section-forth-text,
+  .point-section-fifth-text {
+    margin-top: 3px;
+  }
 }
 
-@media (min-width: 1366px) {
-  .left-img,
-  .right-img {
-    width: auto;
-    height: 183px;
-  }
+.point-section-first-text,
+.point-section-third-text,
+.point-section-fifth-text {
+  letter-spacing: -0.025em;
 }
 
-.portfolio-third-img {
-  width: 154px;
-  height: 128px;
+.point-section-second-text,
+.point-section-forth-text {
+  letter-spacing: -0.005em;
 }
 
-@media (min-width: 1366px) {
-  .portfolio-third-img {
-    margin-bottom: 20px;
-  }
+@media (min-width: 768px) {
+  .point-section-second-text,
+  .point-section-forth-text {
+    letter-spacing: -0.025em;
+    margin-top: 3px;
+  }
 }
-
-.portfolio-forth-img {
-  width: 154px;
-  height: 128px;
-}
-
-@media (min-width: 1366px) {
-  .portfolio-forth-img {
-    margin-bottom: 20px;
-  }
-}
-
 
 
 
